@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /profile/
+Disallow: /order-manage
+Disallow: /orderReturn-manage
+Disallow: /change-password
+Disallow: /cart
+Disallow: /content/
+Disallow: /hepl-center
+Disallow: /search
+
+Allow: /

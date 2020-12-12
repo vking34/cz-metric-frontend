@@ -1,0 +1,89 @@
+
+
+.container-fluid .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+.container-fluid .title .step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid .drowp {
+  text-align: right;
+}
+.container-fluid .title .step .text {
+  color: #2196F3;
+}
+.container-fluid .filter-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.container-fluid .filter-main .nav-text {
+  padding: 7px 15px;
+  background: #fff;
+  border-radius: 15px;
+}
+.container-fluid .filter-main .nav-text:hover {
+  padding: 7px 15px;
+  background: #f54b24;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container-fluid .card-content .card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-fluid .filter-main .li-device{
+  list-style: none;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px #8080806e;
+}
+.rs-picker-menu {
+  left: auto !important;
+  right: 20px;
+}
+
+.rs-picker-cleanable.rs-picker-date .rs-picker-toggle.rs-btn, .rs-picker-cleanable.rs-picker-daterange .rs-picker-toggle.rs-btn{
+  padding-right: 42px;
+  padding: 10px 51px 10px 20px;
+  box-shadow: 0px 3px #8080806e;
+}
+div#option{
+  position: absolute;
+  z-index: 100;
+  top: 138px;
+  left: 30px;
+  text-align: left;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  width: 129px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+div#option .nav li:hover a{
+  background-color: rgb(132, 247, 132);
+  padding-left: 27px;
+}
+div#option .nav li:hover a:active{
+  background-color: rgb(132, 247, 132);
+  padding-left: 27px;
+  color: #fff;
+}
+
+a.option-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
